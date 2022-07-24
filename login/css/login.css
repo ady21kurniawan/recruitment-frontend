@@ -1,0 +1,29 @@
+.inputleft {
+    padding-left:35px;
+    height: 3em;
+    border: 1px solid #acacac;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.iconnameleft {
+    position: relative;
+    font-size: 1.3em;
+    z-index: 1;
+    left: 10px;
+    top: 37px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}
+
+.icon-show-password {
+    position: relative;
+    font-size: 1.3em;
+    z-index: 1;
+    right: 40px;
+    top: -50px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    
+</head>
+<body class="bg-light">
+
+    <div class="row mt-5">
+        <div class="row col-sm-8 p-3 mx-auto">
+            <div class="col-sm-6">
+              <div>
+                <div class="card-body">
+                  <img src="../asset/login-image.png" alt="login-image" style="width: 100% ;">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <!-- <div class="card"> -->
+              <div class="bg-white p-3">  
+                <div class="card-body">
+                  <h5 class="card-title">Welcome To</h5>
+                  <h3 class="fw-bold" style="color: #5c32a8;">Joy Games</h3>
+                  <div class="mb-3">
+                      <button class="btn btn-light col-md-12 shadow-sm bg-white p-2">
+                        <img src="../asset/google.png" width="20" /> Login With Google
+                      </button>
+                  </div>
+                  <div class="mb-3">
+                    <button class="btn btn-light col-md-12 shadow-sm bg-white">
+                        <img src="../asset/facebook.png" width="15" /> Login With Facebook
+                      </button>
+                  </div>
+                  <div class=" row col-md-12 mb-3">
+                    <div class="col-md-5"><hr></div>
+                    <div class="col-md-2 text-center">OR</div>
+                    <div class="col-md-5"><hr></div>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <form>
+                        <div class="mb-3">
+                          <i class="fa fa-envelope iconnameleft"></i>
+                          <input class="inputleft col-md-12" type="text" placeholder="Example@gmail.com" />
+                        </div>
+                        <div class="mb-3">
+                          <i class="fa-solid fa-key iconnameleft"></i>
+                          <input type="password" class="inputleft col-md-12" id="password" placeholder="password">
+                        </div>
+                        <div class="mb-3 text-end"">
+                            <i id="show_password" data="hidden" class="fa-solid fa-eye icon-show-password"></i>
+                        </div>
+                        <div class="row col-md-12 p-3">
+                            <div class="col-md-6 mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                  <a class="text-decoration-none" href="#">Forgot password ?</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary col-md-12">Login</button>
+                      </form>
+                  </div>
+                  <div>
+                    <p class="text-center">Don’t have an account? <a href="#" class="text-decoration-none">Register</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/login.js"></script>
